@@ -1,0 +1,102 @@
+.wood{
+    background-image: url("wood1.png");
+    min-height: 100px;
+}
+body{
+  height: 100vh;
+  
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+.footer {
+  padding: 20px 0; /* Adjust padding as needed */
+  text-align: center;
+  background-color:#F5F5DC;
+  
+}
+#bugs1{
+    background-image: url("bugs1.png");
+    min-height: 50px;
+}
+#bugs2{
+    background-image: url("bugs2.png");
+    min-height: 50px;
+}
+.bugs3{
+  background-image: url("bugs2.png");
+    min-height: 300px;
+}
+#bugs3{
+    background-image: url("bugs3.png");
+    min-height: 50px;
+}
+footer {
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+    background-color:#F5F5DC;
+  }
+  body{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+  #contactFormSplash, #contactplz, #contactplzz{
+    background-color: #F5F5DC;
+  }
+  #splashButton{
+    width:100%;
+    display:block;
+  }
+.homeContent{
+    color: #FFFFFF;
+}
+.navi{
+    background-color: #F5F5DC;
+    min-width: 100vw;
+}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image:  url("worker-fotor.jpg");
+  min-height: 200px;
+  width: 100%;
+  height: auto;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* #bootcamp{
+  background-image: url("bootcamp.jpg");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#homePage h1{
+  width: fit-content;
+  margin: 0 auto;
+}
+#contactBody{
+  background-color: #F5F5DC
+}
+
+#careers{
+  background-color: #F5F5DC
+}
+.contoonner {
+  position: relative;
+  display: inline-block; /* Ensures container only takes up space of its content */
+}
+
+.form-overlay {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  padding: 10px; /* Adjust as needed */
+}
